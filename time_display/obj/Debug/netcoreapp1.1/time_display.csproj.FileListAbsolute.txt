@@ -1,0 +1,8 @@
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\bin\Debug\netcoreapp1.1\time_display.deps.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\bin\Debug\netcoreapp1.1\time_display.runtimeconfig.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\bin\Debug\netcoreapp1.1\time_display.runtimeconfig.dev.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\bin\Debug\netcoreapp1.1\time_display.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\bin\Debug\netcoreapp1.1\time_display.pdb
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\obj\Debug\netcoreapp1.1\time_display.AssemblyInfo.cs
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\obj\Debug\netcoreapp1.1\time_display.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\time_display\obj\Debug\netcoreapp1.1\time_display.pdb
