@@ -1,0 +1,8 @@
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\bin\Debug\netcoreapp1.1\RApi.deps.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\bin\Debug\netcoreapp1.1\RApi.runtimeconfig.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\bin\Debug\netcoreapp1.1\RApi.runtimeconfig.dev.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\bin\Debug\netcoreapp1.1\RApi.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\bin\Debug\netcoreapp1.1\RApi.pdb
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\obj\Debug\netcoreapp1.1\RApi.AssemblyInfo.cs
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\obj\Debug\netcoreapp1.1\RApi.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\RApi\obj\Debug\netcoreapp1.1\RApi.pdb
