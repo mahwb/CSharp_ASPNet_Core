@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+.navbar {
+    background-color: black;
+    margin: 0;
+}
+main {
+    padding: 20px;
+}

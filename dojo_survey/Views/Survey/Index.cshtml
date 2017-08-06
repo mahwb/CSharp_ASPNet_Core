@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Dojo Survey Index</title>
+</head>
+<body>
+    <main>
+        <form action="result" method="POST">
+            <label>Your name: </label><input type="text" name="name"><br>
+            <label>Location: </label>
+            <select name="location">
+                <option>Seattle</option>
+                <option>San Francisco</option>
+                <option>Portland</option>
+                <option>San Jose</option>
+            </select><br>
+            <label>Favorite language: </label>
+            <select name="language">
+                <option>Python</option>
+                <option>C#</option>
+                <option>Java</option>
+            </select><br>
+            <label>Comment (optional):</label><br>
+            <textarea name="comment" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="submit">
+        </form>
+        @{
+            foreach (var error in ViewBag.Errors) {
+                <p class="red">@error</p>;
+            }
+        }
+    </main>
+</body>
+</html>

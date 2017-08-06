@@ -1,0 +1,8 @@
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\bin\Debug\netcoreapp1.1\random_code.deps.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\bin\Debug\netcoreapp1.1\random_code.runtimeconfig.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\bin\Debug\netcoreapp1.1\random_code.runtimeconfig.dev.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\obj\Debug\netcoreapp1.1\random_code.AssemblyInfo.cs
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\bin\Debug\netcoreapp1.1\random_code.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\bin\Debug\netcoreapp1.1\random_code.pdb
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\obj\Debug\netcoreapp1.1\random_code.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\random_code\obj\Debug\netcoreapp1.1\random_code.pdb

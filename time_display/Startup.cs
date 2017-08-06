@@ -23,6 +23,7 @@ namespace time_display
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
+            app.UseStaticFiles();            
 
             if (env.IsDevelopment())
             {

@@ -1,0 +1,18 @@
+main {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid black;
+}
+textarea {
+    border: 1px solid black;
+}
+h1 {
+    text-decoration: underline;
+}
+p { 
+    margin-left: 20px;
+}
+.red {
+    color: red;
+}

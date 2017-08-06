@@ -1,0 +1,8 @@
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\bin\Debug\netcoreapp1.1\dojo_survey.deps.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\bin\Debug\netcoreapp1.1\dojo_survey.runtimeconfig.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\bin\Debug\netcoreapp1.1\dojo_survey.runtimeconfig.dev.json
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\bin\Debug\netcoreapp1.1\dojo_survey.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\bin\Debug\netcoreapp1.1\dojo_survey.pdb
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\obj\Debug\netcoreapp1.1\dojo_survey.AssemblyInfo.cs
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\obj\Debug\netcoreapp1.1\dojo_survey.dll
+C:\Users\Byron\Desktop\DojoAssignments\netCore\ASPNet Core\dojo_survey\obj\Debug\netcoreapp1.1\dojo_survey.pdb
