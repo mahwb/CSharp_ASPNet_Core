@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>DojoDachi</title>
+</head>
+<body>
+    <main>
+        <div id="status">
+            <div>Fullness: @ViewBag.Dachi.Fullness</div>
+            <div>Happiness: @ViewBag.Dachi.Happiness</div>
+            <div>Meals: @ViewBag.Dachi.Meals</div>
+            <div>Energy: @ViewBag.Dachi.Energy</div>
+        </div>
+        <div id="dachi">
+            <div>
+                <img src="~/img/@(ViewBag.Reaction).png">
+            </div>
+            <strong>
+            @if (ViewBag.Error == "true") {
+                <span class="red">@ViewBag.Message</span>
+            } else {
+                @ViewBag.Message
+            }
+            </strong>
+        </div>
+        <div id="buttons">
+            @if (ViewBag.Playing == "true") {
+                <form action="process" method="POST">
+                    <input type="hidden" value="feed" name="action">
+                    <button type="submit">Feed</button>
+                </form>
+                <form action="process" method="POST">
+                    <input type="hidden" value="play" name="action">
+                    <button type="submit">Play</button>
+                </form>
+                <form action="process" method="POST">
+                    <input type="hidden" value="work" name="action">
+                    <button type="submit">Work</button>
+                </form>
+                <form action="process" method="POST">
+                    <input type="hidden" value="sleep" name="action">
+                    <button type="submit">Sleep</button>
+                </form>
+            } else {
+                <a href="/restart"><button>Restart</button></a>
+            }
+        </div>
+    </main>
+</body>
+</html>
