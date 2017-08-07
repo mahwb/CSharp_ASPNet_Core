@@ -31,8 +31,8 @@ namespace dojodachi
             }
 
             app.UseSession();
-            app.UseStaticFiles();
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }
