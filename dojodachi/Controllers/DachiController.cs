@@ -102,7 +102,7 @@ namespace dojodachi
             {
                 ViewBag.Reaction = "muted";
                 ViewBag.Message = "Your DojoDachi has died!";
-                ViewBag.Error = "true";
+                ViewBag.Error = "false";
                 ViewBag.Playing = "false";
             }
             else if(getdachi.Fullness > 99 && getdachi.Happiness > 99)

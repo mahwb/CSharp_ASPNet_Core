@@ -12,8 +12,24 @@
     <main>
         <p>Random Passcode (passcode #@ViewBag.count)</p>
         <h2>@ViewBag.code</h2>
-        <a href="/"><button id="new">Generate</button></a>
-        <a href="/clear"><button id="clear">Clear</button></a>
+        <button id="new">Generate</button>
+        <button id="clear">Clear</button>
     </main>
+    <script>
+        $(function() {
+            $("#new").on("click", function() {
+                $.get("/generate", function(data) { 
+                    $("p").html("Random Passcode (passcode #" + data["count"] + ")");
+                    $("h2").html(data["code"]);
+                });
+            });
+            $("#clear").on("click", function() {
+                $.get("/clear", function(data) { 
+                    $("p").html("Random Passcode (passcode #" + data["count"] + ")");
+                    $("h2").html(data["code"]);
+                });
+            });
+        });
+    </script>
 </body>
 </html>

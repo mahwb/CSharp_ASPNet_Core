@@ -14,11 +14,45 @@ namespace random_code
         [HttpGet]
         public IActionResult Index()
         {
-            int count = HttpContext.Session.GetObjectFromJson<int>("count");
+            int? count = HttpContext.Session.GetObjectFromJson<int>("count");
             if (count == null) {
                 count = 0;
             }
             count += 1;
+            HttpContext.Session.SetObjectAsJson("count", (int)count);
+            ViewBag.code = Code();
+            ViewBag.count = count;
+            return View();
+        }
+
+        [Route("generate")]
+        [HttpGet]
+        public JsonResult Generate() {
+            int? count = HttpContext.Session.GetObjectFromJson<int>("count");
+            count += 1;
+            HttpContext.Session.SetObjectAsJson("count", (int)count);
+            var json = new {
+                count = HttpContext.Session.GetObjectFromJson<int>("count"),
+                code = Code(),
+            };
+            return Json(json);
+        }
+
+        [Route("clear")]
+        [HttpGet]
+        public JsonResult Clear()
+        {   
+            HttpContext.Session.SetObjectAsJson("count", 0);
+            var json = new {
+                count = HttpContext.Session.GetObjectFromJson<int>("count"),
+                code = Code(),
+            };
+            return Json(json);
+        }
+
+        // helper class to generate code
+        public string Code()
+        {
             string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             string code = "";
             Random Rand = new Random();
@@ -26,18 +60,7 @@ namespace random_code
             {
                 code = code + characters[Rand.Next(0, characters.Length)];
             }
-            ViewBag.code = code;
-            ViewBag.count = count;
-            HttpContext.Session.SetObjectAsJson("count", count);
-            return View();
-        }
-
-        [Route("clear")]
-        [HttpGet]
-        public IActionResult Clear()
-        {
-            HttpContext.Session.Clear();
-            return RedirectToAction("Index");
+            return code;
         }
     }
 
